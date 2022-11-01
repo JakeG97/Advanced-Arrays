@@ -35,6 +35,9 @@ let chooseyEndings = function(words, suffix) {
   })
 }; 
 
+console.log(chooseyEndings(['family', 'hound', 'catalyst', 'fly', 'timidly', 'bond'], 'ly'));
+// [ 'family', 'fly', 'timidly' ]
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
